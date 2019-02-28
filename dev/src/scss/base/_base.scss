@@ -1,0 +1,9 @@
+/* =============
+    Base
+============= */
+body{
+  @include xl{
+    width: 1200px;
+    margin: auto;
+  }
+}
