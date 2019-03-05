@@ -1,0 +1,17 @@
+/* =============
+    Footer
+============= */
+footer {
+  position: absolute;
+  z-index: 900;
+  margin-bottom: 40px; }
+  footer #curveBreak {
+    margin-top: 815px; }
+    footer #curveBreak img {
+      width: 100%; }
+  footer #footerText {
+    line-height: 5px;
+    text-align: right;
+    margin-right: 30px; }
+    footer #footerText p {
+      font-size: 12px; }

@@ -1,0 +1,14 @@
+/* =============
+    Typography
+============= */
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+h2 {
+  font-size: 32px; }
+
+h3 {
+  color: #FFCECE; }
+
+p {
+  font-size: 16px; }

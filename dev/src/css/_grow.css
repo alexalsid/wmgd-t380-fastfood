@@ -1,0 +1,17 @@
+#growPod {
+  background-color: #FFCECE;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: absolute;
+  z-index: 1000; }
+  #growPod #growText {
+    margin-top: -60px;
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: justify; }
+  #growPod #growLogo img {
+    transform: rotate(-20deg);
+    width: 30%;
+    opacity: 0.4;
+    margin-top: -15px;
+    margin-left: 290px; }
