@@ -1,0 +1,55 @@
+#growPod{
+  background-color: #FFCECE;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: absolute;
+  z-index:1000;
+    @include md{
+      padding-top: 80px;
+      padding-bottom: 80px;
+    }
+
+  #growText{
+    margin-top: -60px;
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: justify;
+
+      @include md{
+        margin-top: -575px;
+        margin-left: 270px;
+        margin-right: 50px;
+        text-align: left;
+      }
+
+      @include lg{
+        margin-top: -630px;
+        margin-left: 680px;
+        margin-right: 100px;
+      }
+  }
+
+  #growLogo{
+    img{
+      transform: rotate(-20deg);
+      width: 30%;
+      opacity: 0.4;
+      margin-top: -15px;
+      margin-left: 290px;
+
+        @include md{
+          width: 60%;
+          transform: rotate(10deg);
+          margin-top: -10px;
+          margin-left: -250px;
+        }
+
+        @include lg{
+          transform: rotate(30deg);
+          width: 50%;
+          margin-top: -220px;
+          margin-left: -200px;
+        }
+      }
+    }
+}
