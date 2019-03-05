@@ -1,3 +1,50 @@
 /* =============
     Footer
 ============= */
+footer{
+  position: absolute;
+  z-index: 900;
+  margin-bottom: 40px;
+
+  #curveBreak{
+    margin-top: 815px;
+    img{
+      width: 100%;
+    }
+
+      @include md{
+        margin-top: 520px;
+      }
+
+      @include lg{
+        width: 120%;
+        margin-top: 310px;
+      }
+  }
+
+  #footerText{
+    line-height: 5px;
+    text-align: right;
+    margin-right: 30px;
+
+      @include md{
+        margin-right: 50px;
+      }
+
+      @include lg{
+        margin-top: -60px;
+        margin-right: -150px;
+        margin-bottom: 30px;
+      }
+
+    p{
+      font-size: 12px;
+
+      @include md{
+        font-size: 16px;
+      }
+
+    }
+  }
+}
+
